@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<item-->
+            <!--android:id="@+id/action_favorite"-->
+            <!--android:icon="@android:drawable/ic_delete"-->
+            <!--android:title="test1"-->
+            <!--app:showAsAction="ifRoom"/>-->
+
+    <item android:id="@+id/mi_change_units"
+          android:title="Change units"
+          app:showAsAction="never">
+
+        <menu>
+            <group android:id="@+id/mg_choose_language"
+                   android:checkableBehavior="single">
+                <item android:id="@+id/mmi_european"
+                      android:title="European"/>
+                <item android:id="@+id/mmi_american"
+                      android:title="American"/>
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/mi_last_results"
+          android:title="Show last 10 results"
+          app:showAsAction="never"
+    >
+    </item>
+
+    <item android:id="@+id/mi_about"
+          android:title="About"
+          app:showAsAction="never"
+          >
+    </item>
+
+</menu>

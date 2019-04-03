@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+
+    <string name="about_us_headline">About Us</string>
+    <string name="about_us_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. In dictum non consectetur a erat nam at lectus. Fermentum iaculis eu non diam phasellus. Eget
+        magna fermentum iaculis eu. Volutpat odio facilisis mauris sit amet massa. Magna sit amet purus gravida quis
+        blandit turpis cursus in. \n\nVelit egestas dui id ornare arcu odio ut. Gravida dictum fusce ut placerat orci
+        nulla pellentesque dignissim enim. A lacus vestibulum sed arcu. Congue nisi vitae suscipit tellus mauris a.
+        Viverra mauris in aliquam sem. Facilisis gravida neque convallis a cras. Eget magna fermentum iaculis eu non
+        diam phasellus vestibulum lorem. Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Rhoncus aenean
+        vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Auctor urna nunc id cursus.
+    </string>
+    <string name="about_us_button_exit_text">Close</string>
+
+    <string name="inputWeightEU">Mass [kg]</string>
+    <string name="inputHeightEU">Height [cm]</string>
+
+    <string name="inputWeightUS">Mass [lbs]</string>
+    <string name="inputHeightUS">Height [inches]</string>
+
+    <string name="title_activity_about">About</string>
+
+    <string name="btn_learn_more">Learn More</string>
+
+
+    <string name="very_underweight_text">very_underweight_text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate. Auctor elit sed
+        vulputate mi. Nunc scelerisque viverra mauris in aliquam sem fringilla ut. Porta lorem mollis aliquam ut. Velit
+        dignissim sodales ut eu. Vel risus commodo viverra maecenas accumsan lacus vel. Tellus in hac habitasse platea
+        dictumst vestibulum rhoncus est pellentesque.
+    </string>
+    <string name="underweight_text">underweight_text Suspendisse ultrices gravida dictum fusce ut. Quis varius quam quisque id diam vel
+        quam elementum pulvinar. Ipsum a arcu cursus vitae congue. Metus vulputate eu scelerisque felis imperdiet proin.
+        Gravida rutrum quisque non tellus. Eleifend donec pretium vulputate sapien nec. Gravida quis blandit turpis
+        cursus in hac habitasse. Mi quis hendrerit dolor magna eget est lorem ipsum. Nulla pharetra diam sit amet nisl.
+        Cras fermentum odio eu feugiat pretium nibh.
+    </string>
+    <string name="normalweight_text">normalweight_text Ac turpis egestas sed tempus urna et pharetra pharetra massa. Etiam tempor orci eu
+        lobortis. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Nec tincidunt praesent semper feugiat nibh
+        sed. Nulla aliquet enim tortor at auctor urna. Id volutpat lacus laoreet non curabitur gravida. Elit scelerisque
+        mauris pellentesque pulvinar pellentesque habitant morbi tristique. Cursus mattis molestie a iaculis at erat.
+    </string>
+    <string name="overweight_text">overweight_text Nunc vel risus commodo viverra. Amet facilisis magna etiam tempor orci. Non blandit
+        massa enim nec dui nunc mattis enim ut. Massa enim nec dui nunc. Sed euismod nisi porta lorem mollis aliquam ut.
+        Ac turpis egestas sed tempus urna et pharetra pharetra. Consectetur adipiscing elit ut aliquam purus. Commodo
+        viverra maecenas accumsan lacus. Justo eget magna fermentum iaculis eu non. Commodo quis imperdiet massa
+        tincidunt.
+    </string>
+    <string name="obese_text">obese_text Accumsan in nisl nisi scelerisque eu ultrices vitae. Donec ultrices tincidunt arcu non
+        sodales neque sodales ut etiam. Sed adipiscing diam donec adipiscing tristique risus nec. Elit duis tristique
+        sollicitudin nibh sit amet. Dui accumsan sit amet nulla facilisi. Platea dictumst vestibulum rhoncus est
+        pellentesque elit ullamcorper. Gravida in fermentum et sollicitudin ac orci phasellus.
+    </string>
+
+    <string name="very_underweight_level">Very Underweight</string>
+    <string name="underweight_level">Underweight</string>
+    <string name="normal_level">Normal</string>
+    <string name="overweight_level">Overweight</string>
+    <string name="obese_level">Obese</string>
+
+
+</resources>
