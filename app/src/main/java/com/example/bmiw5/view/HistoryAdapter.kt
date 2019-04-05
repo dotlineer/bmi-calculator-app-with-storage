@@ -17,9 +17,20 @@ class HistoryAdapter(private val mDataList: ArrayList<HistoryItem>) : RecyclerVi
     }
 
     override fun onBindViewHolder(holder: HistoryViewHolder, position: Int) {
+        val unitsAr: ArrayList<String> = ArrayList()
+        when (mDataList[position].units) {
+            "european" -> {unitsAr.add("kg")
+                unitsAr.add("cm")
+            }
+            "american" -> {unitsAr.add("lbs")
+                unitsAr.add("inch")
+            }
+            else -> throw Exception("Implementation error")
+        }
+
         holder.tvBmiResult.text = mDataList[position].bmiResult.toString()
-        holder.tvMass.text = mDataList[position].mass.toString()
-        holder.tvHeight.text = mDataList[position].height.toString()
+        holder.tvMass.text = mDataList[position].mass.toString() + " " + unitsAr.get(0)
+        holder.tvHeight.text = mDataList[position].height.toString() + " " + unitsAr.get(1)
         holder.tvDate.text = mDataList[position].date.toString()
     }
 
